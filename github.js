@@ -1,5 +1,4 @@
 (function() {
-  
   var github = function($http) {
     
     var getUser = function(username) {
@@ -41,5 +40,4 @@
   
   var module = angular.module("githubViewer");
   module.factory("github", github);
-  
 }());

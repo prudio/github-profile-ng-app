@@ -1,7 +1,4 @@
-// Code goes here
-
 (function() {
-
   var app = angular.module("githubViewer");
 
   var UserController = function($scope, github, $routeParams) {
@@ -26,5 +23,4 @@
   };
   
   app.controller("UserController", UserController);
-
 }());

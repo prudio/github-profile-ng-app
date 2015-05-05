@@ -1,5 +1,4 @@
 (function() {
-  
   var module = angular.module("githubViewer");
   
   var RepoController = function($scope, github, $routeParams) {
@@ -20,5 +19,4 @@
   };
 
   module.controller("RepoController", RepoController);
-  
 }());

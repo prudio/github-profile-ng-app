@@ -1,7 +1,4 @@
-// Code goes here
-
 (function() {
-
   var app = angular.module("githubViewer");
 
   var MainController = function($scope, $interval, $location) {
@@ -33,5 +30,4 @@
   };
   
   app.controller("MainController", MainController);
-
 }());
